@@ -1,0 +1,369 @@
+.small-heading {
+  color: var(--color-red);
+  font-size: 14px;
+  font-weight: 700; /* Font weight should only be set once */
+  letter-spacing: 1px;
+}
+
+.card-btn {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.75;
+  letter-spacing: 0.2px;
+  display: inline-flex;
+  justify-content: center;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: var(--color-white);
+}
+
+.card-btn:hover, .card-btn:focus {
+  outline: none;
+  border: none;
+}
+
+.card-btn span {
+  transition: all 0.3s ease-in-out;
+}
+
+.card-btn:hover span {
+  transform: translateX(10px);
+}
+
+.service-cards-heading {
+  font-size: 2.25rem;
+  line-height: 1.5;
+  color: var(--primary-color);
+  font-weight: 700;
+  letter-spacing: -1.2px;
+}
+
+.service-cards .card-body {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.service-cards .card-title {
+  font-size: 24px;
+  line-height: 1.25;
+  text-align: center;
+  font-weight: 700;
+}
+
+.service-cards .cards-image {
+  margin-bottom: 24px;
+}
+
+.service-cards .card-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.review-card .card-title {
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.review-card .card-desc {
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: var(--primary-color);
+}
+
+.testimonial-container {
+  background-image: url('../src/assets/img/testimonialbg.png');
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.testimonial-text {
+  color: #68D585;
+  font-size: 13px;
+  line-height: 1.25;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.testimonial-desc {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.25;
+  color: #FFF;
+  letter-spacing: -0.8px;
+}
+
+.countup-heading {
+  font-size: 48px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-align: center;
+  margin: 0;
+}
+
+.countup-desc {
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footer-subheading {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.1px;
+  color: gray;
+}
+
+.footer-links {
+  font-family: 'Gilroy';
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 40px;
+  letter-spacing: -0.2px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.person-img {
+  @media (max-width: 576px) {
+    width: -webkit-fill-available;
+  }
+}
+
+.girl-img {
+  height: 318px;
+  width: 322px;
+  object-fit: fill;
+  @media (max-width: 400px) {
+    width: -webkit-fill-available;
+  }
+}
+
+.small-girl-img {
+  height: 160px;
+  width: 168px;
+  object-fit: fill;
+}
+
+.feature-card {
+  display: inline-flex;
+  gap: 20px;
+  max-width: 400px;
+  width: auto;
+}
+
+.feature-card .title {
+  font-size: 20px;
+  line-height: 1.5;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+}
+
+.feature-card .desc {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.1px;
+  font-weight: 400;
+}
+
+.icon-container {
+  height: 80px;
+  width: 80px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-container img {
+  height: 35px;
+  width: 35px;
+}
+
+.features-container {
+  background-image: url('../feature-bg.png');
+  background-repeat: no-repeat;
+  background-position: 0 12%;
+  @media (max-width: 760px) {
+    background-image: none;
+  }
+}
+
+.hero-container {
+  background-image: url('../hero-bg.png');
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.logo-text {
+  cursor: pointer;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 700;
+  letter-spacing: -0.13px;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.navbar-container {
+  position: sticky;
+  top: 0;
+  background-image: url('../hero-bg.png');
+  background-repeat: no-repeat;
+  background-color: #00000040;
+  z-index: 100;
+}
+
+.nav-links {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.main-btn {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  color: white;
+  background-color: blue;
+  border-radius: 8px;
+  padding: 12px 32px;
+  border: none;
+}
+
+.sidebar {
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 16%);
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  right: -100%;
+  z-index: 100000;
+  transition: 0.5s;
+  background: var(--primary-color);
+}
+
+.sidebarloginbtn {
+  padding: 10px 5px;
+  width: 90px;
+  color: #fff !important;
+  background: #2a2a84;
+  border-radius: 12px;
+  font-family: "VisbyRoundCFBold";
+  font-size: 15px;
+  border: none;
+  margin-right: 12.5px;
+  box-shadow: none;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.joonifysidebarcrossiconbtn {
+  color: #fff !important;
+  font-size: 24px !important;
+}
+
+.sidebar.active {
+  right: 0;
+}
+
+.sd-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 15px;
+  border: 1px solid grey;
+}
+
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.5s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.sidebar-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.sd-body {
+  padding: 15px;
+  max-height: calc(100vh - 67px);
+  overflow-x: hidden;
+}
+
+.sd-body ul {
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.sd-body ul li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+.sd-body ul li a {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0px;
+  color: #333333;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.sd-bodyfooter {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+  border-top: 1px solid grey;
+}
+
+/* Example CSS Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.person-img, .girl-img, .small-girl-img {
+  animation: fadeIn 1s ease forwards;
+}
+
+.desc-container p {
+  transition: transform 0.3s ease;
+}
+
+.desc-container p:hover {
+  transform: scale(1.05);
+}
